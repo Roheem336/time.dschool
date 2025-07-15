@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url(bg.png);
+    margin: auto;
+    padding: 30px;
+    max-width: 800px;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.history-container {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 50px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+        
+.history h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    margin: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 40px;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+table tr:hover {
+    background-color: #ffffff;
+}
+
+.back-link {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.back-link a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: rgb(250, 45, 45);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255, .2);
+    margin: 40px;
+}
+
+a:hover {
+    background-color: #c01401;
+}
